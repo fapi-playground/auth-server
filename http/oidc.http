@@ -1,0 +1,6 @@
+GET http://localhost:9000/oauth2/authorize
+    ?grant_type=authorization_code
+    &scope=openid
+    &response_type=code
+    &client_id=oidc-client
+    &redirect_uri=http%3A%2F%2F127.0.0.1%3A8080%2Flogin%2Foauth2%2Fcode%2Foidc-client
